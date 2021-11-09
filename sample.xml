@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='http://pdd-xsl.teamed.io/1.0.snapshot.xsl'?>
+<puzzles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdd-xsd.teamed.io/1.0.snapshot.xsd" version="1.0.snapshot" date="2021-11-09T10:47:59Z">
+  <puzzle>
+    <ticket>125</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>125-db673db1</id>
+    <lines>33-35</lines>
+    <body>need to implement this method. For now, it's just a task, that prints a simple Running pdd... message to user</body>
+    <file>lib/pdd/rake_task.rb</file>
+    <author>@aivinog1</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-07-10T11:40:26Z</time>
+  </puzzle>
+  <puzzle>
+    <ticket>98</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>98-9de926c6</id>
+    <lines>80-83</lines>
+    <body>Change the implementation of this method to also work in Windows machines. Investigate the possibility of use a gem for this. After that, remove the skip of the test `test_ignores_binary_files` in `test_sources.rb`.</body>
+    <file>lib/pdd/sources.rb</file>
+    <author>@pbenety</author>
+    <email>pbenety@gmail.com</email>
+    <time>2018-06-13T00:38:28Z</time>
+  </puzzle>
+  <puzzle>
+    <ticket>123</ticket>
+    <estimate>30</estimate>
+    <role>DEV</role>
+    <id>123-9786ef4c</id>
+    <lines>19-21</lines>
+    <body>Needs to enable this check and fix all issues. For now, this is out of the scope of this issue. This issue appeared after update TargetRubyVersion to 2.3</body>
+    <file>.rubocop.yml</file>
+    <author>@aivinog1</author>
+    <email>vinogradovai@bcs.ru</email>
+    <time>2019-07-10T10:19:21Z</time>
+  </puzzle>
+</puzzles>
