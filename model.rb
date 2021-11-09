@@ -20,7 +20,7 @@ class Model
     def predict()
         PyCall.exec "pred = Predictor()"
         # TODO:: Read puzzle xml filepath from PDD Options/Config
-        puzzles = prepare_puzzles('../tmp/test.xml')
+        puzzles = prepare_puzzles('./sample.xml')
         # TODO:: Get closed issue text from appropriate source
         closed_issue_text = """
         Needs to enable this check and fix all issues. For now, this is out of the scope of this issue. This issue appeared after update TargetRubyVersion to 2.3
